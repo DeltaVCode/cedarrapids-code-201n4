@@ -1,0 +1,60 @@
+body{
+  background-color: violet;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+/* 
+* {
+  outline: dashed 2px rgb(85, 174, 58);
+} */
+
+header {
+  margin-bottom: 100px;
+}
+
+main {
+  background-color: azure;
+  height: 500px;
+}
+
+footer {
+  background-color: deepskyblue;
+  height: 500px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline;
+  padding: 10px;
+  background-color:chartreuse;
+  border-radius: 15px;
+
+}
+
+/* id - pound sign should be used once. thats it.  */
+p {
+  background-color: rgb(240, 20, 16);
+  color: whitesmoke;
+}
+
+
+#anotherStyle {
+background-color: royalblue;
+color: whitesmoke;
+}
+
+.more-styles {
+  background-color: rgb(240, 109, 16);
+color: whitesmoke;
+
+}
+
+ section p {
+  background-color: rgb(94, 240, 16);
+  color: whitesmoke;
+} 
