@@ -1,0 +1,103 @@
+body {
+    /* background-color: #303655; */
+    background-color: #BFCBCE;
+    /* background-color: #84A7BA; */
+    /* background-color: #6F90AF; */
+    color:#303655;
+    margin: 0 auto;
+    width: 1500px;
+    padding: 100px;
+   
+}
+
+
+h1 {
+    clear: both;
+    font-size: 3em;
+}
+main  {
+    background-color: #84A7BA;
+    color:#303655;
+    height: 360px;
+    width: 100%;
+   
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #6F90AF;
+    color:#303655;
+    height: 200px;
+    clear: both;
+}
+
+ul {
+    margin: 20px;
+    padding: 30px;
+    color:#303655;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    background-color: #6F90AF;
+    border-radius: 15px;
+    color:#303655;
+}
+ol {
+    padding-left: 20px;
+}
+/* id - pound sign */
+
+#another-style {
+background-color: gold;
+color: aliceblue;
+}
+
+.more-style {
+background-color: chocolate;
+}
+
+
+
+section p {
+    padding: 10px;
+}
+
+
+
+.section-boxes {
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 10px 20px 20px;
+    float: left;
+}
+
+
+ /* ids  */
+/* #bio {
+ height: 300px;
+ width: 30%;
+ background-color: #7cb6eb;
+ margin: 0px 10px 20px 60px;
+ float: left;
+ 
+}
+
+#jobs {
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+
+#passions{
+    height: 300px;
+    width: 30%;
+    background-color: #7cb6eb;
+    margin: 0px 0px 10px 0px;
+    float: left;
+} */
