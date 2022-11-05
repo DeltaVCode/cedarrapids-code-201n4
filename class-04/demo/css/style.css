@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(50, 188, 174);
+}
+
+
+section {
+  margin-bottom: 150px;
+  background-color: aqua;
+  height: 50px;
+  position: absolute;
+  left: 0 ;
+  right: 0;
+  top: 0;
+}
+header{
+  margin-top: 55px;
+}
+
+body{
+  background-color: aliceblue;
+  
+}
+
+main{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+footer{
+  background-color: aqua;
+  height: 175px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.price {
+  position: fixed;
+}
+
+
+.parent{
+  top: 30px;
+  position: relative;
+}
