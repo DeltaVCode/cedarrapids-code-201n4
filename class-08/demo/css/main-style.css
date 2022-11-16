@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(34, 168, 240);
+}
+
+/* *{
+  clear: both;
+} */
+header{
+  border: solid 10px rgb(13, 40, 243);
+  background-color: #fff;
+  padding: 30px;
+
+  /* width: 500px; */
+  /* width: calc(50% - 280px); */
+
+
+}
+
+h1{
+  text-align: center;
+  font-size: 55px;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+}
+
+a {
+  padding: 10px;
+  background-color: #222;
+  color: #eee;
+  /* margin: 0 auto; */
+}
+
+main {
+ margin: 20px;
+ display: inline-block;
+ background-color: rgb(228, 134, 19);
+ font-size: 24px;
+ line-height: 2em;
+}
+
+footer {
+
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(62, 225, 25);
+  opacity: 1;
+  height: 150px;
+
+
+}
+
+nav{
+  background-color: navy;
+  padding: 30px;
+  margin-top: 20px;
+  clear:both;
+}
+
+nav a{
+  display: inline;
+  padding: 15px;
+  background-color: #eee;
+  color:navy;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* clear: both; */
+  /* overflow: hidden; */
+
+}
+li{
+  display: inline-block;
+  margin: auto;
+}
+
+li:first-child {
+  float: left;
+}
+
+li:last-child {
+  float: right;
+}
+
+.float-me li {
+  float: left;
+  width: 33%;
+  margin: 0px;
+}
+
+
+.float-me li:last-child {
+  text-align: right;
+}
+
+.float-me li:nth-child(2){
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+div{
+  margin: 0 auto;
+  height: 50px;
+}
+
+.left {
+position: absolute;
+left: 40px;
+}
+
+.middle {
+  position: absolute;
+  left: 48%;
+
+}
+.right {
+  position: absolute;
+  right: 40px;
+}
+
+
+p {
+  /* change to show paragraph extend */
+  max-width: 75%;
+  display: inline-block;
+}
+
+img {
+  float: right;
+  margin-right: 20px;
+}
