@@ -1,0 +1,209 @@
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Grape Nuts', cursive;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 
+
+1.
+display: flex
+flex-direction: row or flex-direction: column 
+
+The flex-direction property sets how flex items are placed in the flex container defining the main axis and the direction.
+
+Steps to demo display: flex and flex-direction:
+
+1. ADD: display property with value of flex - on the container element.
+2. ADD: add flex direction property. The default is set to row but show the difference when switched to flex-direction: column.
+
+3. When demoing flex-direction: column, change the height property on this container.
+At the current height of 500px, the height of each div is not 200px as stated in the starter code. They shrink to fit the container. Change the height to 1200px to see that the divs will have enough room and will maintain their 200px height. Then change the height back to 500px.
+*/
+
+
+/* 
+
+#container {
+background-color: #003094;
+border: 5px solid #45afe8;
+height: 500px;
+margin: 0 auto;
+width: 85%;
+display: flex;
+flex-direction: row;
+flex-direction: column;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+} */
+
+
+
+
+
+
+/* 
+2.
+justify-content 
+
+Steps to demo justify-content:
+
+ADD: justify-content property. The default is flex-start.
+DEMO the other values for justify-content:
+
+A. center: centers along the main axis.
+B. space-between: takes all the extra spaxe and distributes it between the elements but NOT on the outside edges.
+C. space-around: gives each element the same amount of space around it.
+D. space-evenly: ensures the space is even between every element.
+*/
+
+
+/* #container {
+  background-color: #003094;
+  border: 5px solid #45afe8;
+  height: 500px;
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+     flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+
+  }
+  
+  #container div {
+    width: 200px;
+    height: 200px;
+  } */
+
+
+  /* 
+3.
+flex-wrap 
+
+The flex-wrap property determines whether the elements wrap along the main axis on to a new line if it is horizon or new column if it is vertical.
+
+Steps to demo flex-wrap:
+
+3. ADD: flex-wrap property and set the value to wrap. This will create new columns and the divs will now maintain their 200px height as they wrap.
+4. DEMO flex-wrap with a flex-direction of row.
+      CHANGE the width on the divs to a much larger width to see them wrap.
+
+*/
+
+/* 
+#container {
+  background-color: #003094;
+  border: 5px solid #45afe8;
+  height: 500px;
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+  }
+  
+  #container div {
+    width: 350px;
+    height: 200px;
+  } */
+
+
+
+
+/* 
+4.
+align-items
+
+The align-items property determines how the content is distributed across the cross axis (top to bottom). 
+
+3. ADD: align-items property. The default is flex-start which will align the items to the top of the container, no change.
+4. DEMO a few other values for align-items:
+flex-end: align items to the bottom of the container.
+center: centers the items vertically.
+5. CHANGE flex-direction to column and use align-items to show how columns are effected.
+
+
+
+*/
+/* 
+#container {
+  background-color: #003094;
+  border: 5px solid #45afe8;
+  height: 500px;
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+    justify-content: center; 
+
+  }
+  
+  #container div {
+    width: 350px;
+    height: 200px;
+  } */
+
+
+
+
+
+
+
+
+  /* 
+5.
+align-self
+The align-self property is similiar to align-items but can be added to the items in the flex container. 
+
+4. TARGET one of the divs and ADD align-self property.
+5. DEMO the following values for align-self:
+center: this will align this div to the center of the cross axis.
+flex-start: this will align the div at the top of the cross axis.
+flex-end: this will align the div at the bottom of the cross axis.
+
+*/
+
+#container {
+  background-color: #003094;
+  border: 5px solid #45afe8;
+  height: 500px;
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-items: flex-end;
+  justify-content: center;
+  }
+  
+  #container div {
+    width: 200px;
+    height: 200px;
+  }
+
+
+  div:nth-of-type(2){
+    align-self: center;
+    align-self: flex-start;
+    /* align-self: flex-end; */
+  }
