@@ -50,7 +50,7 @@ CookieStand.prototype.createHourlyRateTable = function(){
 
     this.tdEl.textContent = locCSArray[i];
     this.trEl.appendChild(this.tdEl);
-  
+  }
 };
 
 let makeHeaderRow = function(){
