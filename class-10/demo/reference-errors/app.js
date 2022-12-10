@@ -28,13 +28,13 @@ function CookieStand(name, minCustomers, max, aveCookies){
 
 CookieStand.prototype.randomRate = function(){
   for(let i = 0; i < (this.closeTime - this.openTime); i++){
-    this.cookieSoldArray.push(Math.floor(this.aveCookies * (Math.random() * (this.maxCustomers - this.minCustomers + 1) + this.minCustomers)));
+    this.cookieSoldArray.push(Math.floor(this.aveCookies * (Math.random() * (this.max - this.min + 1) + this.min)));
   };
   this.cookieSoldTotal = 0;
-  for(i in this.cookiesSoldArray){
-    this.cookieSoldTotal += this.cookiesSoldArray[i];
+  for (let i in this.cookieSoldArray) {
+    this.cookieSoldTotal += this.cookieSoldArray[i];
   }
-  this.cookiesSoldArray.push(this.cookieSoldTotal);
+  this.cookieSoldArray.push(this.cookieSoldTotal);
 };
 
 CookieStand.prototype.createHourlyRateTable = function(){
